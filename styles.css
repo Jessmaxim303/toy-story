@@ -76,14 +76,18 @@ h1 {
 	height: 35px;
 	background: #D0CDCD;
 	float: right;
+	font-size: 16px;
+	margin-top: 15%;
 }
 
 .active__button {
 	background: #DE4841;
+	margin-top: 28%;
 }
 
 .main__clear--button:hover {
 	background: #DE4841;
+	color: #ffffff;
 }
 
 .eight__ball {
@@ -106,13 +110,13 @@ h1 {
 }
 
 .js__question {
-	margin: 20px 0;
+	margin: 35px 0;
 	font-style: italic;
 	font-size: 18px;
 }
 
 .js__answer {
-	margin: 10px 0;
+	margin: 20px 0;
 	font-weight: bold;
 	font-size: 26px;
 }
