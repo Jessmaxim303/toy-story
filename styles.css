@@ -25,6 +25,7 @@ body {
 /*	display: flex;
 	justify-content: center;*/
 	text-align: center;
+	font-family: 'Open Sans', sans-serif; 
 }
 
 h1 {
@@ -49,30 +50,43 @@ h1 {
 	padding: 15px;
 }
 
+#main__input {
+	font-size: 18px;
+}
+
 .input__size {
 	width: 100%;
 	height: 35px;
+	border-radius: 3px;
+	border: none;
+	padding-left: 10px;
+	font-size: 18px;
 }
 
 #main__button {
 	background: #2B4E80;
 	color: #ffffff;
 	margin-top: 10px;
+	font-size: 18px;
 /*	border: 1px solid red;*/
 }
 
-#main__clear--button {
+.main__clear--button {
 	width: 25%;
 	height: 35px;
-	background: #DE4841;
+	background: #D0CDCD;
 	float: right;
 }
 
-#main__clear--button:hover {
+.active__button {
 	background: #DE4841;
 }
 
-#eight__ball {
+.main__clear--button:hover {
+	background: #DE4841;
+}
+
+.eight__ball {
 	width: 35%;
 	height: 35%;
 	background-image: url('assets/eight-ball.png');
@@ -90,3 +104,17 @@ h1 {
 	background-repeat: no-repeat;
 	margin-left: 10px;
 }
+
+.js__question {
+	margin: 20px 0;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.js__answer {
+	margin: 10px 0;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+
